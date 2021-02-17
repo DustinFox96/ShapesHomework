@@ -4,6 +4,11 @@ using System.Text;
 
 namespace ShapesHomework {
     class Rect : Quad{
+
+        public override string Print() { // make notes why this is override
+            return "Rect";
+        }
+
         public int Area() {
             return Side1 * Side2;
         }

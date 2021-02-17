@@ -10,6 +10,10 @@ namespace ShapesHomework {
         public int Side3 { get; set; }
         public int Side4 { get; set; }
 
+        public virtual string Print() { //add notes why this is virtual
+            return "Quad";
+        }
+
         public int Peremiter() {
             return Side1 + Side2 + Side3 + Side4;
         }
